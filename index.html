@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Felix Trades Blog</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+header {
+  background: #020617;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.post {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+.sidebar {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: black;
+}
+@media(max-width:768px){
+  .container {
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>Felix Trades</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Master Gold Trading</h1>
+  <p>RSI (7) • SMC • ICT Strategies</p>
+</div>
+
+<div class="container">
+
+<div>
+  <div class="post">
+    <h3>My Exact Gold Entry Strategy</h3>
+    <p>I wait for RSI (7) to hit 20 or 80, then confirm with liquidity sweep and FVG before entering trades...</p>
+  </div>
+
+  <div class="post">
+    <h3>Best Time to Trade Gold</h3>
+    <p>London and New York sessions give the best volatility for scalping...</p>
+  </div>
+</div>
+
+<div class="sidebar">
+  <h3>About Me</h3>
+  <p>I teach gold scalping using smart money concepts.</p>
+
+  <h3>Newsletter</h3>
+  <input placeholder="Your email" style="width:100%;padding:8px;">
+  <button style="width:100%;padding:10px;margin-top:10px;background:#38bdf8;border:none;">
+    Subscribe
+  </button>
+</div>
+
+</div>
+
+<footer>
+  <p>© 2026 Felix Trades</p>
+</footer>
+
+</body>
+</html>
